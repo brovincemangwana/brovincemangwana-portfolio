@@ -17,3 +17,8 @@ https://brovincemangwana.github.io/brovincemangwana-portfolio/
 - CSS3 (Flexbox, media queries)
 - JavaScript (ES6 — arrays, objects, loops, DOM manipulation)
 
+## How to Run Locally
+1. Clone this repository: git clone https://github.com/brovincemangwana/brovincemangwana-portfolio.git
+2. Navigate into the project folder:
+    cd brovincemangwana-portfolio
+3. Open `index.html` in your browser (you can double-click the file, or use a tool like VS Code's Live Server extension).    
