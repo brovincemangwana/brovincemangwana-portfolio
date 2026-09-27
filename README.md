@@ -11,3 +11,9 @@ https://brovincemangwana.github.io/brovincemangwana-portfolio/
 - Skills rendered dynamically from a JavaScript array
 - Project cards rendered dynamically from a JavaScript array of objects
 - Contact section with email and GitHub link
+
+## Technologies Used
+- HTML5
+- CSS3 (Flexbox, media queries)
+- JavaScript (ES6 — arrays, objects, loops, DOM manipulation)
+
