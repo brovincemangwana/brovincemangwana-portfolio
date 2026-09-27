@@ -53,14 +53,14 @@ nav ul li a:hover {
   color: #4da6ff;
 }
 
-#about {
+#About {
   display: flex;
   align-items: center;
   gap: 40px;
   flex-wrap: wrap;
 }
 
-#about img {
+#About img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -68,12 +68,12 @@ nav ul li a:hover {
   flex-shrink: 0;
 }
 
-#about h2 {
+#About h2 {
   width: 100%;
   margin-bottom: 20px;
 }
 
-#about p {
+#About p {
   font-size: 1rem;
   max-width: 500px;
 }
