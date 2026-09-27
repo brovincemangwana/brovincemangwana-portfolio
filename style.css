@@ -142,4 +142,24 @@ nav ul li a:hover {
   margin-top: 8px;
 }
 
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #About {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #About p {
+    max-width: 100%;
+  }
+}
 
