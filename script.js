@@ -21,3 +21,28 @@ const projects = [
     tech: "HTML, CSS, JavaScript, Fetch API"
   }
 ];
+
+const projectsList = document.getElementById("projects-list");
+
+for (const project of projects) {
+  const card = document.createElement("div");
+  card.classList.add("project-card");
+
+  const title = document.createElement("h3");
+  title.textContent = project.title;
+
+  const description = document.createElement("p");
+  description.textContent = project.description;
+
+  const tech = document.createElement("p");
+  tech.textContent = "Tech: " + project.tech;
+  tech.classList.add("project-tech");
+
+  card.appendChild(title);
+  card.appendChild(description);
+  card.appendChild(tech);
+
+  projectsList.appendChild(card);
+}
+
+
